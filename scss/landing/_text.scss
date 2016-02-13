@@ -1,0 +1,36 @@
+body, h1 {
+	color: $app-base-text-color;
+	font: {
+		family: $app-base-font-family;
+		weight: 300;
+	}
+}
+.site-title,
+.banner {
+	font-size: 3.6em;
+	@include opacity(0.8);
+}
+.site-title {
+	text-align: center;
+	font-weight: 600;
+}
+.banner-extras {
+	font-size: 2.2em;
+	line-height: 1.8em;
+	@include opacity(0.8);
+	a {
+		&:link {
+			color: $app-base-text-color;
+		}
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+@media screen and ( max-width: $break-medium ) {
+	.site-title,
+	.banner {
+		font-size: 3.0em;
+	}
+}
+.test { }

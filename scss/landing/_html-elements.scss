@@ -1,0 +1,6 @@
+html {
+	font-size: $app-base-font-size;
+	@media screen and ( max-width: $break-medium ) {
+		font-size: $app-base-mobile-font-size;
+	}
+}

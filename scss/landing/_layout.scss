@@ -1,0 +1,42 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+.landing-content {
+	height: 100%;
+}
+.banner-container {
+	text-align: center;
+}
+.banner {
+	margin-bottom: .2em;
+}
+.phone-number {
+	&:before {
+		content: "\260E\0020";
+	}
+}
+.landing-row {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.landing-column {
+	float: left;
+	&:first-child {
+		margin-right: 5em;
+	}
+}
+.inline-center {
+	margin: 0 auto;
+}
+@media screen and ( max-width: $break-medium ) {
+	.landing-column {
+		&:first-child {
+			margin-right: 3em;
+		}
+	}
+}
