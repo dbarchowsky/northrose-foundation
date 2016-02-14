@@ -33,10 +33,15 @@ body {
 .inline-center {
 	margin: 0 auto;
 }
+.align-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media screen and ( max-width: $break-medium ) {
-	.landing-column {
-		&:first-child {
-			margin-right: 3em;
-		}
-	}
+  .landing-column {
+    &:first-child {
+      margin-right: 3em;
+    }
+  }
 }
