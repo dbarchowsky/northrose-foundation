@@ -1,6 +1,13 @@
 html {
-	font-size: $app-base-font-size;
-	@media screen and ( max-width: $break-medium ) {
-		font-size: $app-base-mobile-font-size;
-	}
+  font-size: $app-base-font-size;
+  @media screen and ( max-width: $break-medium ) {
+    font-size: $app-base-mobile-font-size;
+  }
+}
+a {
+  text-decoration: none;
+  &:hover,
+  &:active {
+    text-decoration: underline;
+  }
 }

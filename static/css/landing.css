@@ -2076,6 +2076,11 @@ html {
     html {
       font-size: 120%; } }
 
+a {
+  text-decoration: none; }
+  a:hover, a:active {
+    text-decoration: underline; }
+
 html {
   height: 100%; }
 
