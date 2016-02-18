@@ -2086,6 +2086,8 @@ html {
 
 body {
   height: 100%; }
+  body.http-error {
+    background-color: #fed2a8; }
 
 .landing-content {
   height: 100%; }

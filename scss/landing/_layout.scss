@@ -3,6 +3,9 @@ html {
 }
 body {
 	height: 100%;
+	&.http-error {
+      background-color: $http-error-bg-color;
+    }
 }
 .landing-content {
 	height: 100%;
