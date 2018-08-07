@@ -48,3 +48,16 @@ body {
     }
   }
 }
+@media screen and ( max-width: $break-small ) {
+  .landing-row {
+    display: inline-block;
+    flex-wrap: wrap;
+  }
+  .landing-column {
+    float: none;
+    margin-right: 0;
+  }
+  .site-title {
+    text-align: left;
+  }
+}

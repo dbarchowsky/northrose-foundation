@@ -8,7 +8,7 @@ body, h1 {
 .site-title,
 .banner {
 	font-size: 3.6em;
-	@include opacity(0.8);
+	color: rgba($app-base-text-color, 0.8);
 }
 .site-title {
 	text-align: center;
@@ -17,7 +17,7 @@ body, h1 {
 .banner-extras {
 	font-size: 2.2em;
 	line-height: 1.8em;
-	@include opacity(0.8);
+	color: rgba($app-base-text-color, 0.8);
 	a {
 		&:link {
 			color: $app-base-text-color;

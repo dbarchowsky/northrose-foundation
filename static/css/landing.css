@@ -2136,6 +2136,18 @@ body {
   .landing-column:first-child {
     margin-right: 3em; } }
 
+@media screen and (max-width: 870px) {
+  .landing-row {
+    display: inline-block;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .landing-column {
+    float: none;
+    margin-right: 0; }
+  .site-title {
+    text-align: left; } }
+
 body, h1 {
   color: white;
   font-family: "Open Sans", Trebuchet, sans-serif;
@@ -2144,8 +2156,7 @@ body, h1 {
 .site-title,
 .banner {
   font-size: 3.6em;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8; }
+  color: rgba(255, 255, 255, 0.8); }
 
 .site-title {
   text-align: center;
@@ -2154,8 +2165,7 @@ body, h1 {
 .banner-extras {
   font-size: 2.2em;
   line-height: 1.8em;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8; }
+  color: rgba(255, 255, 255, 0.8); }
   .banner-extras a:link {
     color: white; }
   .banner-extras a:hover {
