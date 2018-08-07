@@ -1,3 +1,6 @@
+:root {
+  font-size: calc(1vw + 1vh + .5vmin);
+}
 body, h1 {
 	color: $app-base-text-color;
 	font: {
@@ -5,9 +8,15 @@ body, h1 {
 		weight: 300;
 	}
 }
+.site-title {
+	font-size: 2.4em;
+}
+.banner,
+.banner-extras {
+  font-size: 1.8em;
+}
 .site-title,
 .banner {
-	font-size: 3.6em;
 	color: rgba($app-base-text-color, 0.8);
 }
 .site-title {
@@ -15,7 +24,6 @@ body, h1 {
 	font-weight: 600;
 }
 .banner-extras {
-	font-size: 2.2em;
 	line-height: 1.8em;
 	color: rgba($app-base-text-color, 0.8);
 	a {
@@ -27,14 +35,17 @@ body, h1 {
 		}
 	}
 }
-@media screen and ( max-width: $break-medium ) {
-	.site-title,
-	.banner {
-		font-size: 3.0em;
-	}
-}
 @media screen and ( max-width: $break-small ) {
   .site-title {
+    font-size: 3.0em;
+  }
+  .banner,
+  .banner-extras {
+    font-size: 2.0em;
+  }
+  .site-title,
+  .banner,
+  .banner-extras {
     text-align: left;
   }
 }

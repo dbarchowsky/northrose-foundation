@@ -2144,14 +2144,23 @@ body {
     float: none;
     margin-right: 0; } }
 
+:root {
+  font-size: calc(1vw + 1vh + .5vmin); }
+
 body, h1 {
   color: white;
   font-family: "Open Sans", Trebuchet, sans-serif;
   font-weight: 300; }
 
+.site-title {
+  font-size: 2.4em; }
+
+.banner,
+.banner-extras {
+  font-size: 1.8em; }
+
 .site-title,
 .banner {
-  font-size: 3.6em;
   color: rgba(255, 255, 255, 0.8); }
 
 .site-title {
@@ -2159,7 +2168,6 @@ body, h1 {
   font-weight: 600; }
 
 .banner-extras {
-  font-size: 2.2em;
   line-height: 1.8em;
   color: rgba(255, 255, 255, 0.8); }
   .banner-extras a:link {
@@ -2167,13 +2175,15 @@ body, h1 {
   .banner-extras a:hover {
     text-decoration: underline; }
 
-@media screen and (max-width: 1080px) {
-  .site-title,
-  .banner {
-    font-size: 3.0em; } }
-
 @media screen and (max-width: 870px) {
   .site-title {
+    font-size: 3.0em; }
+  .banner,
+  .banner-extras {
+    font-size: 2.0em; }
+  .site-title,
+  .banner,
+  .banner-extras {
     text-align: left; } }
 
 .color-cycle-bg {
