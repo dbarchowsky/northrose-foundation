@@ -2142,9 +2142,7 @@ body {
         flex-wrap: wrap; }
   .landing-column {
     float: none;
-    margin-right: 0; }
-  .site-title {
-    text-align: left; } }
+    margin-right: 0; } }
 
 body, h1 {
   color: white;
@@ -2173,6 +2171,10 @@ body, h1 {
   .site-title,
   .banner {
     font-size: 3.0em; } }
+
+@media screen and (max-width: 870px) {
+  .site-title {
+    text-align: left; } }
 
 .color-cycle-bg {
   -webkit-animation: color-cycle-bg 90s infinite;
