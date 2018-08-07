@@ -2102,13 +2102,12 @@ body {
   content: "\260E\0020"; }
 
 .landing-row {
-  display: -webkit-flex;
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-          align-content: center;
-  -webkit-align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto; }
@@ -2122,13 +2121,13 @@ body {
   margin: 0 auto; }
 
 .align-middle {
-  display: -webkit-flex;
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
+  -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-justify-content: center;
+  -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
 
@@ -2139,9 +2138,8 @@ body {
 @media screen and (max-width: 870px) {
   .landing-row {
     display: inline-block;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
   .landing-column {
     float: none;
     margin-right: 0; }
@@ -2189,30 +2187,35 @@ body, h1 {
 
 .animate-fade-1 {
   z-index: -10;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#e0d4f0));
   background: linear-gradient(transparent, #e0d4f0);
   -webkit-animation: fade-1 60s infinite;
   animation: fade-1 60s infinite; }
 
 .animate-fade-2 {
   z-index: -9;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#fddcb8));
   background: linear-gradient(transparent, #fddcb8);
   -webkit-animation: fade-2 60s infinite;
   animation: fade-2 60s infinite; }
 
 .animate-fade-3 {
   z-index: -8;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#aca1e1));
   background: linear-gradient(transparent, #aca1e1);
   -webkit-animation: fade-3 60s infinite;
   animation: fade-3 60s infinite; }
 
 .animate-fade-4 {
   z-index: -7;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#e77c65));
   background: linear-gradient(transparent, #e77c65);
   -webkit-animation: fade-4 60s infinite;
   animation: fade-4 60s infinite; }
 
 .animate-fade-5 {
   z-index: -6;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#f1b0bd));
   background: linear-gradient(transparent, #f1b0bd);
   -webkit-animation: fade-5 60s infinite;
   animation: fade-5 60s infinite; }
